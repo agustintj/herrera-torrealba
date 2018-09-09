@@ -4,8 +4,7 @@
 }
 
 body{
-	background: url(./fondo.jpg);
-	color:rgba(25,25,25,1);
+	background: url(fondo.jpg);
 	font-family: 'Poppins', sans-serif;
 	font-weight:300;
 }
@@ -141,7 +140,7 @@ video{
 	width:23%;
 	margin:1%;
 	color:#333;
-	background:white;
+	background:transparent;
 	box-shadow:0 0 5px rgba(0,0,0,.1);
 }
 
