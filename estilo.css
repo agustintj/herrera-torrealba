@@ -4,7 +4,7 @@
 }
 
 body{
-	background: url(../fondo.jpg);
+	background: url(./fondo.jpg);
 	color:rgba(25,25,25,1);
 	font-family: 'Poppins', sans-serif;
 	font-weight:300;
