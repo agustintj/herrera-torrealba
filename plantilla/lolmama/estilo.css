@@ -1,0 +1,278 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background: url(fondo1.jpg);
+	font-family: 'Poppins', sans-serif;
+	font-weight:300;
+}
+
+h1, h2, h3, h4{
+	font-family: 'Montserrat', sans-serif;
+	font-weight:700;
+}
+
+h1{
+	letter-spacing:0.1em;
+	color:rgba(255,255,255,0.9);
+	text-shadow: 1px 1px 0 #999;
+	text-align:center;
+}
+
+h2{
+	letter-spacing:0.02em;
+	color:rgba(255,255,255,0.6);
+	padding:0.2em 0;
+	text-shadow: 1px 1px 0 #999;
+	text-align:center;
+}
+
+h3{
+	letter-spacing:0.2em;
+	color:rgba(0,0,0,0);
+	padding:2em 0 0.6em 0;
+	text-shadow: 0px 0px 0 #ccc;
+	text-align:center;
+}
+
+h4, h5, h6{
+	font-weight:left;
+	font-weight:600;
+}
+
+#contenido{width:98%; margin:1% auto;}
+
+header{
+	width:98%;
+	top:40%;
+	position: absolute;
+	text-align:center;
+	z-index:9;
+	color:white;
+}
+
+@media screen and (max-width: 980px){
+	header{top:20%;}
+}
+
+@media screen and (max-width: 760px){
+	header{top:10%;}
+}
+
+video{
+	width:100%;
+	height:auto;
+	}
+
+#somos{
+	width:100%;
+	background:rgb(250,250,250);
+	margin-bottom:2%;
+	}
+
+.dupla{
+	width:46%;
+	padding:2%;
+	float:left;
+	background-color:red;
+	}
+
+.dupla a{
+	color:rgba(255,0,0,0.75);
+	text-decoration:none;
+	font-weight:700;
+}
+
+.dupla a:hover{
+	color:rgba(255,0,0,1);
+	text-decoration:underline;
+}
+
+.primera{
+	min-height:300px;
+	text-align:left;
+	background-color:rgba(241,230,210,1);
+	background-image:url('media/dupla-01.jpg');
+	background-position:top right;
+	background-repeat:no-repeat;
+	background-size:auto 100%;
+}
+.primera h4{padding: 2% 40% 1% 2%;}
+
+.primera h5{padding: 1% 40% 2% 2%; margin-bottom:5em; letter-spacing:0.1em;}
+
+.primera p{padding: 2% 40% 2% 2%;}
+
+.primera address{padding: 2% 40% 2% 2%; font-size:0.9em; font-style:normal;}
+
+.segunda{
+	min-height:300px;
+	text-align:right;
+	background-color:rgba(231,240,239,1);
+	background-image:url('media/dupla-02.jpg');
+	background-position:top left;
+	background-repeat:no-repeat;
+	background-size:auto 100%;
+}
+
+.segunda h4{padding: 2% 2% 1% 40%;}
+
+.segunda h5{padding: 1% 2% 2% 40%; margin-bottom:5em; letter-spacing:0.1em;}
+
+.segunda p{padding: 2% 2% 2% 40%;}
+
+.segunda address{padding: 2% 2% 2% 40%; font-size:0.9em; font-style:normal;}
+
+#somos hr{
+	clear:both;
+	border:none;
+	}
+
+#portafolio{
+	width:100%;
+	padding-bottom:1%;
+	background:transparent;
+}
+
+.item {
+	width:23%;
+	margin:1%;
+	color:#333;
+	background:white;
+	box-shadow:0 0 5px rgba(0,0,0,.1);
+}
+
+.item:hover{
+	cursor:crosshair;
+}
+
+.item figure{
+	overflow:hidden;
+}
+
+.item figure img{
+	width:100%;
+	height:auto;
+	margin-bottom:-4px;
+	filter: grayscale(0);
+}
+
+.item:hover figure img{
+	transform:scale(1.25);
+	filter: grayscale(0);
+	transition:all ease-out 0.5s;
+	.snip1361 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1361 img {
+  max-width: 100%;
+  vertical-align: top;
+}
+.snip1361 figcaption {
+  position: absolute;
+  top: calc(77%);
+  width: 100%;
+  background-color: #ffffff;
+  padding: 15px 25px 65px;
+}
+.snip1361 figcaption:before {
+  position: absolute;
+  content: '';
+  z-index: 2;
+  bottom: 100%;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background-image: -webkit-linear-gradient(top, transparent 0%, #ffffff 100%);
+  background-image: linear-gradient(to bottom, transparent 0%, #ffffff 100%);
+}
+.snip1361 h3,
+.snip1361 p {
+  margin: 0 0 10px;
+}
+.snip1361 h3 {
+  font-weight: 300;
+  font-size: 1.4em;
+  line-height: 1.2em;
+  font-family: 'Oswald', Arial, sans-serif;
+  text-transform: uppercase;
+}
+.snip1361 p {
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
+.snip1361 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+.snip1361:hover figcaption,
+.snip1361.hover figcaption {
+  top: 80px;
+}
+/* Demo purposes only */
+body {
+  background-color: #212121;
+}
+
+}
+
+.item h4{
+	font-size:1em;
+	letter-spacing:0.025em;
+	margin:5% 5% 3% 5%;
+}
+
+.item p{
+	font-size:0.875em;
+	letter-spacing:0.05em;
+	margin:2% 5% 6% 5%;
+}
+
+footer{
+	width:100%;
+	padding:3em 0 1em 0;
+	text-align:center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:700;
+}
+
+footer p{
+	text-transform:uppercase;
+	letter-spacing:0.1em;
+	font-size:0.9em;
+	}
+
+footer hr{
+	border:2px solid #000;
+	width:10%;
+	margin:2em auto 0 auto;
+	}
+
+@media screen and (orientation: portrait){
+
+	.dupla{
+		width:96%;
+		padding:2%;
+		float:left;
+	}
+	.item{
+		width:48%;
+		margin:1%;
+		background:#F0E5D3;
+		color:#333;
+	}
+
+	footer hr{
+	width:20%;
+	}
+}
